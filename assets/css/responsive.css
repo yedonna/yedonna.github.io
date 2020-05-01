@@ -1,0 +1,30 @@
+.text{
+  width:65%;
+  margin:auto;
+}
+
+#click, #click1{
+	font-size: 12px;
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1250px) {
+	.text{
+		width: 55%
+	}
+	.body {
+		color: blue;
+	}
+}
+
+@media screen and (max-width: 1052px) {
+	h1{
+		width:50%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.urban .intro{
+		width: 36%;
+		margin-top: 25%;
+	}
+}

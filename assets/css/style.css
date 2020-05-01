@@ -1,0 +1,328 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+header {
+  height: 100px;
+  width:80%;
+  margin:auto;
+  left: 0px;
+  background: white;
+  display: inline-flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+nav a {
+  size: 18px;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 24%; 
+  align-items: center;
+}
+h1 {
+  text-align: left; 
+  font-size: 30px;
+  line-height: 35px; 
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3%;
+}
+.container1, .container2 {
+  padding-top:5%;
+  padding-bottom:5%;
+}
+.container3{
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+.container1{
+  background-color: #FFDA61;
+}
+#hello, .title1, .title2, .para{
+  width:60%;
+  margin:auto;
+}
+.para1{
+  width:60%;
+  margin-left: 20%;
+}
+#hello{
+  font-size:25px;
+  margin-bottom: 40px;
+}
+.title1, .title2{
+  font-size: 25px;
+  width: 50%;
+  margin-left: 20%;
+}
+.title2{
+   padding-bottom: 10px;
+   margin-top: 0;
+}
+.para {
+  margin-left: 20%;
+  font-size: 16px;
+}
+.para1{
+  font-size: 16px;
+}
+.container2{
+  background-color: white;
+}
+#recipe, #rec{
+  font-size:25px;
+  width:60%;
+  margin:auto;
+}
+#recipe{
+  padding-bottom: 60px;
+}
+.row{
+  width: 90%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+#pic1, #pic2, #pic3{
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border:1px solid gray;
+  margin-bottom: 40px;
+}
+#pic1:hover, #pic2:hover, #pic3:hover {
+   animation-name: tada;
+   animation-duration: 1s;
+   cursor: pointer;
+   background-color: #D4FA8B;
+}
+
+#pic1 {
+  margin-left: 10%;
+}
+#pic1 img {
+  padding-left: 28%;
+  padding-top: 20%; 
+}
+#pic2, #pic3 {
+  margin-left: 10%;
+}
+
+#pic2 img {
+  padding-left: 25%;
+  padding-top: 25%;
+}
+
+#pic3 img{
+  padding-left: 25%;
+  padding-top: 20%;
+}
+
+.text{
+  width:50%;
+  margin:auto;
+}
+
+.taiwan, .hk, .chai{
+  background-color: #C2EB72;
+  padding-bottom: 45%;
+  margin-bottom: 5%;
+  width: 110%;
+  height:auto;
+  display: none;
+
+}
+.top {
+  font-size:30px;
+  font-weight: lighter;
+  padding-bottom: 10px;
+  padding-left: 12%;
+  padding-top: 4%;
+}
+.list {
+  position: relative;
+  justify-content: center;
+}
+
+.taiwan .language{
+  position: absolute;
+  left:5%;
+  padding-bottom: 1%;
+
+}
+.hk .language{
+  position: absolute;
+  left:5%;
+  padding-top: 1%;
+  padding-bottom: 1%
+
+}
+
+.language1{
+  position: absolute;
+  left:15%;
+  padding-top: 2%;
+}
+ .list .list1{
+  position: absolute;
+  width: 39%;
+  left: 17%;
+  overflow-wrap: normal;
+  padding-top: 2%;
+  padding-bottom:2%;
+  text-overflow: wrap;
+}
+.list .list2{
+  position: absolute;
+  width: 39%;
+  right: 10%;
+  padding-top: 2%;
+  padding-bottom:2%;
+  padding-left: 0;
+  text-overflow: wrap;
+}
+.taiwan .list1{
+  width: 34%;
+}
+.hk .list1{
+  width:32%;
+}
+ol{
+  margin-left:0px;
+  padding-left:18px;
+}
+.chai .cont {
+  position: relative;
+}
+.chai .language1 {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+}
+
+.chai .list1 {
+  left:12%;
+}
+.chai {
+  margin-bottom: 0;
+}
+#rec-sub{
+  width: 80%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 3%;
+  font-size: 16px;
+}
+.contain1{
+  background-color: #F9BB70;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.contain2{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  padding-top: 5%;
+}
+.recrow1{
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+}
+.recrow2{
+  display: flex;
+  direction: row;
+  justify-content: center;
+  padding-top: 30px;
+  align-items: center;
+}
+#logo5{
+  margin-left: 20%;
+}
+.bobaguys, .asha, .urban, .chaicart, .littlesweet { 
+  position: relative;
+  width: 70%;
+  height: 350px;
+  margin-left: 20%;
+  align-items: center;
+  margin-top: 30px;
+  border: 2px solid #F9BB70;
+  display: none;
+
+}
+.logo {
+  position: absolute
+  width: 50%;
+  left: 0;
+  padding-top: 12%;
+  padding-left: 15%;
+}
+#logo1:hover, #logo2:hover, #logo3:hover, #logo4:hover, #logo5:hover{
+  animation-name: tada;
+  animation-duration: 1s;
+  cursor: pointer;
+}
+.intro{
+  margin-right:0%;
+  width:40%;
+  margin-top: 8%;
+}
+.chaicart .intro{
+  margin-top: 12%;
+}
+.name{
+  font-size: 25px;
+}
+.loc, .hed{
+  font-weight: bold;
+}
+.color{
+  width: 50%;
+  background-color:  #F9BB70;
+  padding-left:5%;
+  position: absolute;
+  top:0;
+  right: 0;
+  height:100%;
+}
+
+
+#click, #click1{
+  padding-top: 3%;
+  margin-left: 20%;
+  color: #709529;
+  font-size: 16px;
+}
+#click1{
+  margin-left: 12%;
+}
+
+
+
